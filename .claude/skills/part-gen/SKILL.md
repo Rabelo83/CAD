@@ -99,13 +99,34 @@ cq.exporters.export(result, "<part_name>.step")
 print(f"Exported <part_name>.stl and <part_name>.step")
 ```
 
-## 3D Printing Tolerances
+## Printer: Flashforge Adventurer 5X (AD5X)
+
+All parts MUST fit within these constraints:
+- **Build volume**: 220 x 220 x 220mm (WARN if any dimension exceeds this)
+- **Nozzle**: 0.4mm default — min wall thickness = 0.8mm (2 perimeters)
+- **Layer heights**: 0.12mm (fine), 0.2mm (normal), 0.28mm (draft)
+- **Materials**: PLA, PETG, TPU 95A, PLA-CF, PETG-CF
+- **Multi-color**: Up to 4 colors via IFS system
+- **Max speed**: 600mm/s, 20000mm/s² acceleration
+
+### Multi-Color Design Rules
+- When designing multi-color parts, separate color regions into distinct modules
+- Add `// Color: <color_number 1-4>` comments to identify color zones
+- Minimum color region width: 1.6mm (4x nozzle) for reliable color changes
+- Avoid color changes on thin walls or fine details
+
+### Size Validation
+Always check: if any dimension > 220mm, WARN the user and suggest splitting the part.
+
+## 3D Printing Tolerances (tuned for AD5X with 0.4mm nozzle)
 
 - Clearance fit (loose): +0.3mm per side
 - Snap fit (tight): +0.1mm to +0.15mm per side
 - Press fit: +0.05mm per side
 - LEGO-style stud fit: use 0.1mm to 0.2mm clearance
 - Hole diameter compensation: add +0.2mm to nominal diameter
+- Min wall thickness: 0.8mm (2 perimeters at 0.4mm nozzle)
+- Min feature size: 0.4mm (single nozzle width)
 
 ## Output Checklist
 

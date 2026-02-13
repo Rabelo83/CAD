@@ -50,9 +50,12 @@ parts/<part-name>/
 - Fit type: [clearance / snap / press]
 - Clearance: [value in mm]
 
-## Print Settings
-- Material: PLA / PETG / ABS
-- Layer height: 0.2mm
+## Print Settings (Flashforge AD5X)
+- **Max build**: 220 x 220 x 220mm
+- Material: PLA / PETG / TPU 95A / PLA-CF / PETG-CF
+- Colors: [1-4, via IFS multi-color system]
+- Layer height: 0.2mm (or 0.12mm for fine detail)
+- Nozzle: 0.4mm (min wall: 0.8mm)
 - Infill: 20%
 - Supports: yes / no
 - Orientation: [description]

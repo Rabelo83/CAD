@@ -9,7 +9,9 @@
       "Bash(gh:*)",
       "Bash(git --version:*)",
       "Bash(git -C \"c:\\\\Users\\\\rabeloaj\\\\OneDrive - City of Gainesville\\\\Documents\\\\Proyects\\\\CAD\" remote -v)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: CAD project with skills and sample LEGO 2x4 brick\n\n- Add Claude Code skills: /part-gen, /dim-view, /cad-template\n- Add sample LEGO 2x4 brick \\(OpenSCAD model, STL export, dimensioned SVG\\)\n- Add pure Python STL exporter \\(zero dependencies\\)\n- Add project structure for parametric 3D-print part design\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
