@@ -1,0 +1,2 @@
+cadquery>=2.4.0
+ezdxf>=0.18.0

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(where:*)",
+      "Bash(python:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh:*)",
+      "Bash(git --version:*)",
+      "Bash(git -C \"c:\\\\Users\\\\rabeloaj\\\\OneDrive - City of Gainesville\\\\Documents\\\\Proyects\\\\CAD\" remote -v)",
+      "Bash(git add:*)"
+    ]
+  }
+}
