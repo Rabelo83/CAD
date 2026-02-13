@@ -11,7 +11,9 @@
       "Bash(git -C \"c:\\\\Users\\\\rabeloaj\\\\OneDrive - City of Gainesville\\\\Documents\\\\Proyects\\\\CAD\" remote -v)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: CAD project with skills and sample LEGO 2x4 brick\n\n- Add Claude Code skills: /part-gen, /dim-view, /cad-template\n- Add sample LEGO 2x4 brick \\(OpenSCAD model, STL export, dimensioned SVG\\)\n- Add pure Python STL exporter \\(zero dependencies\\)\n- Add project structure for parametric 3D-print part design\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd MagSafe mountain stand and pic-to-part skill\n\n- Add /pic-to-part skill for image-to-3D-model workflow\n- Add MagSafe mountain stand \\(OpenSCAD + STL export\\)\n  - Mountain body with rock texture, MagSafe pocket, cross, coin tray, book\n  - Sized for AD5X: 130mm dia x 128mm tall\n  - 4-color print zones mapped for IFS system\n- Update skills with Flashforge AD5X printer specs\n  - Build volume validation \\(220x220x220mm\\)\n  - Nozzle/tolerance settings for 0.4mm nozzle\n  - Multi-color design rules\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   }
 }
